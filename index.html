@@ -11,11 +11,12 @@
     rel="stylesheet">
   <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./mobile.css" media="only screen and (max-width: 480px)">
 </head>
 
 <body>
   <header class="header container-fluid">
-    <div class="d-flex header-left">
+    <div class="header-left">
       <img src="./assets/logo.svg" alt="Codify Logo" class="logo">
       <nav class="nav">
         <a href="#about">About</a>
@@ -31,7 +32,7 @@
     </div>
   </header>
   <section class="start-a-project container-fluid" id="about">
-    <div class="d-flex">
+    <div class="start-a-project-container">
       <div class="start-a-project-content-wrapper">
         <div class="start-a-project-hello">Hello!</div>
         <h1 class="start-a-project-title">
@@ -94,12 +95,14 @@
             <div class="latest-work-block-tag">USA</div>
           </div>
           <div class="latest-work-block-description">
-            Nike app that allows you to create sneakers with individual design in the designer and order them. There is also a catalog of classic models
+            Nike app that allows you to create sneakers with individual design in the designer and order them. There is
+            also a catalog of classic models
           </div>
           <button class="latest-work-block-btn">View Case Study</button>
         </div>
       </div>
       <div class="latest-work-block latest-work-block-2">
+        <img src="./assets/latest-work-2.png" alt="" class="latest-work-block-image">
         <div class="latest-work-block-content">
           <div class="latest-work-block-title">Nike App</div>
           <div class="latest-work-block-tag-wrapper">
@@ -108,11 +111,11 @@
             <div class="latest-work-block-tag">USA</div>
           </div>
           <div class="latest-work-block-description">
-            Nike app that allows you to create sneakers with individual design in the designer and order them. There is also a catalog of classic models
+            Nike app that allows you to create sneakers with individual design in the designer and order them. There is
+            also a catalog of classic models
           </div>
           <button class="latest-work-block-btn">View Case Study</button>
         </div>
-        <img src="./assets/latest-work-2.png" alt="" class="latest-work-block-image">
       </div>
       <div class="latest-work-block latest-work-block-3">
         <img src="./assets/latest-work-3.png" alt="" class="latest-work-block-image">
@@ -124,7 +127,8 @@
             <div class="latest-work-block-tag">USA</div>
           </div>
           <div class="latest-work-block-description">
-            Nike app that allows you to create sneakers with individual design in the designer and order them. There is also a catalog of classic models
+            Nike app that allows you to create sneakers with individual design in the designer and order them. There is
+            also a catalog of classic models
           </div>
           <button class="latest-work-block-btn">View Case Study</button>
         </div>
@@ -176,7 +180,7 @@
     <div class="section-title-wrapper">
       <div class="section-title container-fluid">Contact Us</div>
     </div>
-    <div class="d-flex container-fluid">
+    <div class="section-content-wrapper container-fluid">
       <div>
         <div class="info-wrapper">
           <div class="chip info-item">
@@ -187,7 +191,7 @@
           <img src="./assets/telegram.svg" alt="" class="info-item">
           <img src="./assets/facebook.svg" alt="" class="info-item">
         </div>
-        <iframe class="map" width="604" height="265" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCe-ogH8sRLifO7KT3qVgHWX2QQdBo1udU
+        <iframe class="map" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCe-ogH8sRLifO7KT3qVgHWX2QQdBo1udU
   &q=Space+Needle,Seattle+WA">
         </iframe>
       </div>
